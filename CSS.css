@@ -1,0 +1,319 @@
+body{
+    
+}
+.nav{
+    background-color:green;
+}
+.num{
+   background-color: #CFB2AC;
+   
+    font-weight:bold;
+    color:navbar-dark;
+}
+
+
+.num-size{
+    height:30%;
+    width:30%;
+}
+.num-pad1{
+   padding:1%;
+   font-size: 100%;
+}
+
+
+.home-font{
+    color:rgb(234, 241, 234);
+}
+.navback{
+    background-color:green;
+}
+
+
+.nav-whatsup1{
+    
+    color:#25D366;
+    padding:1% 0% 1% 2%;
+}
+.nav-instagram1{
+    font-size:200%;
+    color:#E4405F;
+    padding:1% 0% 1% 2%;
+}
+.nav-facebook1{
+    font-size:fa-5x;
+    color:#1877F2;
+    padding:1% 0% 1% 2%;
+}
+.nav-youtube1{
+    font-size:200%;
+    color:#FF0000; 
+    padding:1% 0% 1% 2%;
+}
+
+.logo1{
+    height:5%;
+    width:5%;
+}
+.whatsappbg{
+background-color: #25D366;
+color:white;
+float:right;
+display: block;
+text-align: center;
+padding: 16px;
+transition: all 0.2s ease;
+font-size: 30px;
+position:sticky;
+}
+
+@media only screen and (min-width:0px)
+{
+    .number{
+        display:none;
+    }
+}
+@media only screen and (min-width:1024px)
+{
+    .number{
+        display:block;
+    }
+}
+
+
+
+.caro-size1{
+    height:100%;
+    width:100%;
+  
+}
+
+
+.carouselcap {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: rgb(245, 241, 241);
+    font-size: 20px;
+    font-style:bold;
+    
+    animation: animate__zoomInDown 1s ease-in-out;
+}
+.carwords{
+    position:absolute;
+    top:300;
+    left:-350;
+    color:rgb(253, 242, 242);
+    font-size:40px;
+    font-style:italic
+}
+
+
+
+
+.car1{
+    position: relative;
+}
+
+.car1::before {
+    content: "";
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+}
+
+.icon-bar a {
+    position:sticky;
+    display: block;
+    text-align: center;
+    padding-left:95%;
+    transition: all 0.2s ease;
+    color:green;
+    font-size: 50px;
+  }
+  .icon-bar {
+    position: fixed;
+    top: 50%;
+    left:92%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+
+
+
+.carousel-caption {
+    z-index: 2;
+    color: white;
+}
+
+.whatsticky {
+    position: -webkit-sticky;
+    position: sticky;
+    text-align:right
+  }
+
+.suc{
+    background-color: #723022;
+    font-size: 30px;
+    font-weight:bold;
+}
+
+
+.card-head{
+    color:#227251;
+    font-weight:bold;
+    font-size:25px;
+}
+
+
+
+.modal1{
+    background-color: rgb(229, 45, 45);
+    color:#00ff59;
+}
+.modal-head{
+    color:#1b4f5a;
+    font-size:25px;
+    font-weight:bold;
+    padding:10px 0px 10px 40%;
+}
+
+
+.modal-bodyy{
+    font-size: 20px;
+    padding:10px 0px 10px 30px;
+}
+
+
+.bagimg{
+    
+    background-image: url(./images1/img5.jpg);
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative;
+    height:100%;
+    width:100%;
+}
+
+.coursebg{
+background-image: url(./images1/background.jpg);
+}
+
+.coure-bor{
+  
+ 
+   
+   height: 100%;
+   width:100%;
+}
+
+.cou-img{
+    width:100%;
+    height:100%
+}
+
+.testi{
+    padding:0% 15% 0% 15%;
+ 
+}
+
+
+.client{
+    
+    height:10%;
+    width:100%;
+}
+
+.client-image{
+    height:45%;
+    width:100%;
+}
+
+
+
+.whatsticky{
+ 
+    position:sticky;
+    bottom: 0px;
+    right:0px;
+    size:100px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+   
+    color:#25D366;
+    padding-left:90%;
+
+  }
+
+  
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+.line{
+    background-color:#cae8ca;
+    font-size: 125%;
+}
+
+
+.footer1{
+    background-color:#d2eeff;
+
+}
+.footerAdreess{
+    
+    padding-left:25%;
+    padding-top: 5%;
+}
+.footerAboutus{
+    font-weight:bold;
+    padding-left:25%;
+}
+
+
+
+    
